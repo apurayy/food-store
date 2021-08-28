@@ -1,0 +1,136 @@
+/*this is common css*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+	color:red;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+	letter-spacing:1px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+li{
+	float:left;
+}
+/* re-useable component */
+h4{
+	font-size:12px;
+	font-weight:900;
+	color:#000;
+	margin-bottom:0;
+}
+p{
+	font-size:12px;
+	color:#6c6c6c;
+	font-weight:500;
+}
+/* header top css */
+
+#header-top{
+	width:100%;
+	background:#232b38;
+	padding:10px 0;
+}
+
+.social a{
+	color:#fff;
+	font-size:16px;
+	margin-right:10px;
+}
+.login{
+	float:right;
+}
+.login-1{
+	display:inline;
+	margin:0 10px;
+}
+.login-1 i{
+	color:#fff;
+	font-size:16px;
+	margin-right:5px;
+}
+.login-1 a{
+	color:#fff;
+	font-size:16px;
+	font-weight:500;
+}
+.divider{
+	color:#fff;
+	font-size:16px;
+}
+/* header area */
+#header{
+	width:100%;
+	box-shadow:0 4px 5px rgba(0, 0, 0, 0.3), 0 0 0px rgb(0 0 0) inset;
+
+}
+.navbar{
+	padding-top:20px;
+	padding-bottom:0;
+}
+.brand-area{
+	margin-top:40px;
+}
+.brand-area i{
+	float:left;
+	font-size:25px;
+	margin:0 10px;
+	margin-top:2px;
+	color:#eebf00;
+}
+.brand-text{
+	float:left;
+}
+.brand-right{
+	float:right;
+}
+.brand-text-2{
+	float:right;
+}
+.brand-img{
+	text-align:center;
+}
+.brand-img img{
+	margin-top:-10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	color: #000;
+    font-weight: 600;
+	padding: 10px 20px;
+	transition:.5s;
+	font-size:16px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	color:#fff;
+	background:#eebf00;
+}
+.navbar-expand-lg .navbar-nav .active{
+	color:#fff;
+	background:#eebf00;
+}
+
+
+
+
+
+
+
